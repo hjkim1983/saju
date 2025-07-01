@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/saju.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/saju", "dest": "api/saju.py" }
+  ]
+}
